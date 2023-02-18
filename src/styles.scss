@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  font-family: 'Righteous', cursive;
+}
+
+.btn-primary{
+  @apply bg-primary block w-fit py-3 px-6 hover:opacity-60 ease-linear duration-100
+}
+
+.container{
+  width: 1000px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.wrapper-page{
+  width: 1400px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
